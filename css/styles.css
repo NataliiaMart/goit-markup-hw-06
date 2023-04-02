@@ -71,7 +71,7 @@ address {
     display: flex;
     align-items: center;
     gap: 40px;
-    
+
 }
 
 .header-conteiner {
@@ -155,7 +155,7 @@ address {
     left: 0;
     border-radius: 2px;
     background-color: var(--color-ocean);
-    
+
 }
 
 .pages:hover {
@@ -176,7 +176,7 @@ address {
     left: 0;
     border-radius: 2px;
     background-color: var(--color-ocean);
-    
+
 }
 
 .pages:focus::after {
@@ -269,7 +269,7 @@ address {
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--color-ocean);
-    
+
 }
 
 
@@ -401,14 +401,14 @@ address {
     display: flex;
     justify-content: center;
     gap: 24px;
-    
+
 }
 
 
 .team-soc-item {
     width: 40px;
     height: 40px;
-    
+
 }
 
 
@@ -431,12 +431,12 @@ address {
 
 .team-soc-link:hover {
     background-color: var(--color-ocean);
-    
+
 }
 
 .team-soc-link:focus {
     background-color: var(--color-ocean);
-    
+
 }
 
 /*-------CUSTOMERS----*/
@@ -483,14 +483,14 @@ address {
 .customers-link:hover {
     border: 1px solid var(--color-ocean);
     color: var(--color-ocean);
-    
+
 }
 
 
 .customers-link:focus {
     border: 1px solid var(--color-ocean);
     color: var(--color-ocean);
-    
+
 }
 
 
@@ -599,12 +599,12 @@ address {
 
 .footer-social-link:hover {
     background-color: var(--color-green);
-    
+
 }
 
 .footer-social-link:focus {
     background-color: var(--color-green);
-    
+
 }
 
 /*------PORTFOLIO----*/
@@ -670,7 +670,7 @@ address {
     flex-wrap: wrap;
     gap: 24px;
     padding: 12px 24px 12px 24px;
-    
+
 }
 
 
@@ -679,7 +679,7 @@ address {
     color: #FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    
+
 }
 
 .portfolio-filters-item :focus {
@@ -705,8 +705,8 @@ address {
 }
 
 .portfolio-item:hover .portfolio-cover-text {
-   transform: translateY(0);
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-top-wrap {
@@ -738,7 +738,7 @@ address {
 .portfolio-link:hover,
 .portfolio-link:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    
+
 }
 
 .portfolio-item:is(:hover, :focus) .portfolio-item {
@@ -822,8 +822,8 @@ address {
     border-radius: 50%;
     display: block;
     margin-left: auto;
-    
-    
+
+
 }
 
 .modal-close-X {
@@ -845,4 +845,55 @@ address {
 
 .no-scroll {
     overflow: hidden;
+}
+
+.modal-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-grey);
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.input-wrap {
+    position: relative;
+}
+
+
+.modal-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+
+    padding-left: 10px;
+
+}
+
+.modal-filed {
+    margin-bottom: 8px;
+}
+
+.modal-input::placeholder {
+    font-size: 12px;
+    color: var(--color-light-slate);
+}
+
+/*.modal-label-text {
+    display: inline-block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    color: var(--color-light-slate);
+}
+*/
+
+.modal-input-icon {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
 }
