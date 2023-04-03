@@ -899,8 +899,12 @@ address {
 
 }
 
-.button-close:hover,
-.modal-close-X:hover {
+.button-close:hover.modal-close-X {
+    background-color: var(--color-ocean);
+    fill: var(--color-wite);
+}
+
+.button-close:focus.modal-close-X {
     background-color: var(--color-ocean);
     fill: var(--color-wite);
 }
@@ -917,11 +921,6 @@ address {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-close:focus,
-.modal-close-X:focus {
-    background-color: var(--color-ocean);
-    fill: var(--color-wite);
-}
 
 
 .is-hidden {
@@ -933,6 +932,8 @@ address {
 .no-scroll {
     overflow: hidden;
 }
+
+/*----*/
 
 .modal-title {
     font-weight: 500;
