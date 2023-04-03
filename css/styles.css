@@ -644,13 +644,10 @@ address {
 }
 
 .footer-button {
-    width: 165px;
+    width: 168px;
     height: 40px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
+    top: 140px;
     background-color: var(--color-iris);
-    color: var(--color-wite);
     display: flex;
     align-items: center;
     text-align: center;
@@ -659,15 +656,25 @@ address {
     cursor: pointer;
     padding: 8px 24px;
     margin: 0 auto;
-    border: none;
+    border-style: none;
     margin-left: 24px;
     transition: background-color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 16px;
+}
+
+.footer-btn-text {
+    width: 80px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-wite);
 
 }
 
 .footer-button-icon {
-    padding: 8px 24px 8px 16px;
     fill: var(--color-wite);
 }
 
