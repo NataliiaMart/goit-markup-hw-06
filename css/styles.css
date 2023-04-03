@@ -899,13 +899,19 @@ address {
 
 }
 
-.button-close:hover .modal-close-X {
+.button-close:hover {
     background-color: var(--color-ocean);
+}
+
+.button-close:hover .modal-close-X {
     fill: var(--color-wite);
 }
 
-.button-close:focus .modal-close-X {
+.button-close:focus {
     background-color: var(--color-ocean);
+}
+
+.button-close:focus .modal-close-X {
     fill: var(--color-wite);
 }
 
