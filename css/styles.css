@@ -661,6 +661,8 @@ address {
     margin: 0 auto;
     border: none;
     margin-left: 24px;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -668,6 +670,12 @@ address {
     padding-left: 16px;
     fill: var(--color-wite);
 }
+
+.footer-button:hover,
+.footer-button:focus {
+    background-color: var(--color-ocean);
+}
+
 
 
 /*------PORTFOLIO----*/
@@ -885,8 +893,16 @@ address {
     border-radius: 50%;
     display: block;
     margin-left: auto;
+    background-color: var(--color-cornflower);
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+}
 
+.button-close:hover,
+.modal-close-X:hover {
+    background-color: var(--color-ocean);
+    fill: var(--color-wite);
 }
 
 .modal-close-X {
@@ -897,6 +913,14 @@ address {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-close:focus,
+.modal-close-X:focus {
+    background-color: var(--color-ocean);
+    fill: var(--color-wite);
 }
 
 
@@ -933,6 +957,8 @@ address {
 
     padding-left: 38px;
     outline: transparent;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus {
@@ -966,7 +992,8 @@ address {
     top: 3px;
     top: 50%;
     transform: translateY(-50%);
-
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -979,6 +1006,8 @@ address {
     resize: none;
     padding: 16px;
     outline: transparent;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea:focus {
@@ -1006,6 +1035,7 @@ address {
     letter-spacing: 0.04em;
     text-decoration-line: underline;
     color: var(--color-iris);
+
 }
 
 .consent-text::before {
@@ -1015,6 +1045,7 @@ address {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     display: block;
+
 }
 
 .modal-check:checked+.consent-text::before {
@@ -1023,6 +1054,10 @@ address {
     background-image: url(../images/click.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.consent-text {
+    margin-bottom: 35px;
 }
 
 
@@ -1037,4 +1072,33 @@ address {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.modal-btn {
+    width: 169px;
+    height: 56px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-wite);
+    background-color: var(--color-iris);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin: 0 auto;
+    border: none;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn:focus,
+.modal-btn:hover {
+    background-color: var(--color-ocean);
 }
