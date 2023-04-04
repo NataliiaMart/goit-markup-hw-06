@@ -639,13 +639,12 @@ address {
     color: var(--color-wite);
     font-size: 12px;
     line-height: 24px;
-
+    outline: none;
 }
 
 .footer-input::placeholder {
     color: var(--color-wite);
     font-size: 12px;
-
 }
 
 .footer-button {
