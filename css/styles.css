@@ -636,11 +636,16 @@ address {
     border-radius: 4px;
     background-color: transparent;
     padding: 8px 16px;
+    color: var(--color-wite);
+    font-size: 12px;
+    line-height: 24px;
+
 }
 
 .footer-input::placeholder {
     color: var(--color-wite);
     font-size: 12px;
+
 }
 
 .footer-button {
@@ -1028,10 +1033,8 @@ address {
     border-color: var(--color-iris);
 }
 
+
 .consent-text {
-    display: flex;
-    gap: 2px;
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -1058,7 +1061,9 @@ address {
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    display: block;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
 
 }
 
